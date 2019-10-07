@@ -6,14 +6,16 @@ D3 Explanations
 <p>
 <ul>
 <li>Select</li>
-
+Select Commands work by finding the first matching result in your file and using it for whatever comes next.
 <li>Append</li>
-
+The Append Command is a way to take whatever your next code is and add it to the end of the object that was opened in the pevious command.
 <li>Text</li>
-
+What ever is typed in this command will be the string that is used in the previous command.
 <li>Style Commands</li>
-
+The end which is a semicolon signifies the end of our code piece.
 </ul>
+  When all these elements are put together it creates something called a chain command which ,as can be seen above, works by starting a code which hands data over to your next command which does the same until you reach your end.
+  For example d3.select(body).append(p).text(new paragraph);
 </p>
 </body>
 </html>
